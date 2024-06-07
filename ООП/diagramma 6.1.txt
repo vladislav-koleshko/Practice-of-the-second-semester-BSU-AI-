@@ -1,0 +1,13 @@
+SpaceObject
+├── Asteroid
+│   ├── fields: maxSize
+│   ├── methods: setMaxSize(), getMaxSize(), display()
+├── SpaceShip
+│   ├── fields: name, vmax, ammo
+│   ├── methods: setName(), getName(), setVmax(), getVmax(), setAmmo(), getAmmo(), display()
+├── Rocket
+│   ├── fields: explosivePower, fuelTime
+│   ├── methods: setExplosivePower(), getExplosivePower(), setFuelTime(), getFuelTime(), display()
+└── Bonus
+    ├── fields: ammoBonus, existenceTime
+    ├── methods: setAmmoBonus(), getAmmoBonus(), setExistenceTime(), getExistenceTime(), display()
